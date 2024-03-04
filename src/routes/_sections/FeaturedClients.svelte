@@ -2,7 +2,7 @@
 	import ClientList from './ClientList.svelte';
 </script>
 
-<div class="flex flex-col bg-black py-40">
+<div class="flex flex-col bg-black md:py-40">
 	<span
 		class="mb-10 mt-20 text-center font-sub text-xs uppercase leading-tight tracking-widesttt text-white/50"
 	>
@@ -11,13 +11,13 @@
 
 	<div class="relative flex overflow-x-hidden">
 		<div
-			class="animate-marquee flex flex-row items-center space-x-20 whitespace-nowrap py-12 pl-20"
+			class="flex animate-marquee flex-row items-center space-x-20 whitespace-nowrap py-12 pl-20"
 		>
 			<ClientList />
 		</div>
 
 		<div
-			class="animate-marquee2 absolute top-0 flex flex-row items-center space-x-20 whitespace-nowrap py-12 pl-20"
+			class="absolute top-0 flex animate-marquee2 flex-row items-center space-x-20 whitespace-nowrap py-12 pl-20"
 		>
 			<ClientList />
 		</div>
