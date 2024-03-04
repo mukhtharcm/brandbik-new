@@ -16,10 +16,10 @@ const config = {
       },
       fontSize: {
         // smaller than xs
-        '2xs': '.6rem',
+        '2xs': '.65rem',
       },
       letterSpacing: {
-        'widesttt': '0.5em',
+        'widesttt': '0.4em',
       },
       animation: {
         marquee: 'marquee 25s linear infinite',

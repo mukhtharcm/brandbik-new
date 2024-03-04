@@ -47,7 +47,7 @@
 
 <div class="relative bg-black py-20">
 	<div class="container flex flex-col">
-		<span class="font-sub text-xs uppercase tracking-widest opacity-50">Services</span>
+		<span class="font-sub text-2xs uppercase tracking-widesttt text-white/50">Services</span>
 	</div>
 
 	<div class="container mt-10 flex cursor-default flex-col md:mt-16">

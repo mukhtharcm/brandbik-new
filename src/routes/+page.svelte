@@ -147,7 +147,7 @@
 			class="container flex flex-col"
 		>
 			<span class="z-10 text-center font-sub text-2xs uppercase tracking-widesttt text-white/50">
-				Our Achievements
+				Our Achievement
 			</span>
 		</div>
 		<div class="container z-10 mt-20 grid gap-8 md:grid-cols-3">
