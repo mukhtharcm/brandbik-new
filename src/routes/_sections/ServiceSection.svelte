@@ -54,7 +54,7 @@
 		{#each services as item, index}
 			<!-- svelte-ignore a11y-no-static-element-interactions -->
 			<div
-				class="relative flex flex-col items-start space-y-2 border-b border-white/30 border-b-white/10 py-10 text-white/30 transition-all duration-300 hover:border-b-white/30 hover:text-white md:flex-row md:items-end md:space-x-14"
+				class="relative flex flex-col items-start space-y-2 border-b border-white/30 border-b-white/30 py-10 transition-all duration-300 hover:border-b-white/30 hover:text-white md:flex-row md:items-end md:space-x-14 md:border-b-white/10 md:text-white/30"
 				on:mousemove={(event) => {
 					hoveredService = item;
 					handleMouseOver(event);
