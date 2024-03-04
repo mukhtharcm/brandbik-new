@@ -4,6 +4,9 @@
 	import { inview } from 'svelte-inview';
 	import { quintInOut, quintOut } from 'svelte/easing';
 	import { fade, fly, scale, slide } from 'svelte/transition';
+	import ServiceSection from './_sections/ServiceSection.svelte';
+	import FeaturedClients from './_sections/FeaturedClients.svelte';
+	import TestimonialsSection from './_sections/TestimonialsSection.svelte';
 
 	let isHeaderInView: boolean = false;
 	let introTextInView: boolean = false;
@@ -16,7 +19,7 @@
 	>
 		<div class="container mt-4 flex h-full flex-col">
 			<div class="container fixed inset-x-0 top-8 z-10 flex flex-row items-center justify-between">
-				<span class="tracking-widesttt text-2xl font-semibold uppercase">Outd</span>
+				<span class="text-2xl font-semibold uppercase tracking-widesttt">Outd</span>
 				<div class="flex flex-row items-center space-x-2">
 					<span class="hidden text-sm font-light md:block"> Contact Us </span>
 					<Menu size={24} />
@@ -45,7 +48,7 @@
 							opacity: 0.5,
 							easing: quintOut
 						}}
-						class="font-sub tracking-widesttt text-xs font-light uppercase md:text-sm"
+						class="font-sub text-xs font-light uppercase tracking-widesttt md:text-sm"
 					>
 						Digital Creative
 					</span>
@@ -129,9 +132,7 @@
 	</div>
 </div>
 <div class="relative">
-	<div
-		class="relative flex flex-col bg-gradient-to-r from-blue-800 to-purple-800 py-60 md:via-black"
-	>
+	<div class="relative flex flex-col bg-gradient-to-br from-blue-800 via-black to-purple-800 py-60">
 		<div
 			use:inview={{
 				threshold: 0.5,
@@ -145,7 +146,7 @@
 			}}
 			class="container flex flex-col"
 		>
-			<span class="tracking-widesttt z-10 text-center text-lg uppercase text-opacity-50">
+			<span class="z-10 text-center font-sub text-2xs uppercase tracking-widesttt text-white/50">
 				Our Achievements
 			</span>
 		</div>
@@ -161,12 +162,12 @@
 							opacity: 0.5,
 							easing: quintOut
 						}}
-						class="isolate flex flex-col justify-between rounded-xl bg-white/5 p-8 ring-1 ring-white/30"
+						class="isolate flex flex-col justify-between rounded-xl bg-white/5 p-4 ring-1 ring-white/30"
 					>
-						<h2 class="mb-24 text-xl font-normal">Projects Completed</h2>
+						<h2 class="mb-16 text-lg font-normal">Projects Completed</h2>
 						<span class="text-7xl font-extralight"> 74+ </span>
-						<hr class="my-8 h-0.5 opacity-50" />
-						<span class="text-sm leading-snug"
+						<hr class="mb-4 mt-8 h-0.5 rounded-full border-white/20" />
+						<span class="text-xs leading-snug"
 							>Successful liftoffs into the digital cosmos, each leaving a trail of satisfied
 							clients</span
 						>
@@ -179,3 +180,9 @@
 		class="absolute left-0 right-0 top-0 h-[80svh] bg-gradient-to-b from-black to-transparent"
 	></div>
 </div>
+
+<ServiceSection />
+
+<FeaturedClients />
+
+<!-- <TestimonialsSection /> -->
