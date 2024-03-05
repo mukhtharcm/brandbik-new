@@ -9,6 +9,7 @@
 	import TestimonialsSection from './_sections/TestimonialsSection.svelte';
 	import NewsLetterSection from './_sections/NewsLetterSection.svelte';
 	import ContactForm from './_sections/ContactForm.svelte';
+	import Footer from './_sections/Footer.svelte';
 
 	let isHeaderInView: boolean = false;
 	let introTextInView: boolean = false;
@@ -192,3 +193,5 @@
 <NewsLetterSection />
 
 <ContactForm />
+
+<Footer />

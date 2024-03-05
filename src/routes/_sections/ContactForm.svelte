@@ -8,7 +8,7 @@
 <div
 	use:inview={{
 		threshold: 0.5,
-		unobserveOnEnter: false
+		unobserveOnEnter: true
 	}}
 	on:inview_change={(event) => {
 		console.log(event.detail);

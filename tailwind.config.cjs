@@ -17,6 +17,8 @@ const config = {
       fontSize: {
         // smaller than xs
         '2xs': '.65rem',
+        // larger than 9xl
+        '11xl': '10rem',
       },
       letterSpacing: {
         'widesttt': '0.4em',
