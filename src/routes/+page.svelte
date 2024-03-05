@@ -162,7 +162,7 @@
 							opacity: 0.5,
 							easing: quintOut
 						}}
-						class="isolate flex flex-col justify-between rounded-xl bg-white/5 p-4 ring-1 ring-white/30"
+						class="isolate flex flex-col justify-between rounded-xl bg-white/5 p-4 ring-1 ring-white/30 md:aspect-square"
 					>
 						<h2 class="mb-16 text-lg font-normal">Projects Completed</h2>
 						<span class="text-7xl font-extralight"> 74+ </span>
@@ -185,4 +185,22 @@
 
 <FeaturedClients />
 
-<!-- <TestimonialsSection /> -->
+<TestimonialsSection />
+
+<div class="mt-32 h-[80svh] bg-gradient-to-b from-black to-blue-800">
+	<div class="container max-w-4xl">
+		<div
+			class="isolate flex flex-col items-start justify-between rounded-xl bg-white/5 p-4 ring-1 ring-white/30 md:p-16"
+		>
+			<div class="flex flex-col items-start md:flex-row md:justify-between">
+				<span class="text-2xl font-light md:text-3xl"> Don't want to miss anything? </span>
+				<div class="hidden w-1/2 md:flex">
+					<!--  -->
+				</div>
+				<span class="mt-4 font-light text-white/80">
+					Sign up for our newsletter to stay updated on the winning trends before they go viral
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
