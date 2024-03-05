@@ -2,7 +2,7 @@
 	import { ArrowLeft, ArrowRight } from 'lucide-svelte';
 	import { onMount } from 'svelte';
 	import { elasticInOut, quintOut } from 'svelte/easing';
-	import { fly, slide } from 'svelte/transition';
+	import { fade, fly, slide, scale, crossfade } from 'svelte/transition';
 
 	let testimonials: {
 		testimonial: string;
@@ -35,15 +35,18 @@
 		const interval = setInterval(() => {
 			currentTestimonial =
 				currentTestimonial === testimonials.length - 1 ? 0 : currentTestimonial + 1;
-		}, 10000);
+		}, 5000);
 
 		return () => clearInterval(interval);
 	});
 </script>
 
-<div class="container relative h-[60svh] bg-black pb-16 pt-20">
+<div class="container relative flex flex-row bg-black pb-16 pt-20 md:h-[60svh]">
 	{#key currentTestimonial}
-		<div class="container flex max-w-3xl flex-col items-start md:items-center">
+		<div
+			in:fade={{ duration: 1000, easing: quintOut }}
+			class="container flex max-w-3xl flex-col items-start md:items-center"
+		>
 			<span class="mb-10 text-lg text-white/70 md:text-center md:text-2xl">
 				"{testimonials[currentTestimonial].testimonial}"
 			</span>
