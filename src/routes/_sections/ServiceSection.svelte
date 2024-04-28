@@ -3,22 +3,29 @@
 	import { quintOut } from 'svelte/easing';
 	import { fade, scale } from 'svelte/transition';
 
+	// branding | digital transformtn | digital marketing | web devlp | app develp
+
 	let services = [
 		{
-			title: 'Creative Maestroes',
+			// title: 'Creative Maestroes',
+			title: 'Branding',
 			url: 'https://images.pexels.com/photos/910193/pexels-photo-910193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
 		},
 		{
-			title: 'Supafaast Delivery',
+			title: 'Digital Transformation',
 			url: 'https://images.pexels.com/photos/760728/pexels-photo-760728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
 		},
 		{
-			title: 'Product Design',
+			title: 'Digital Marketing',
 			url: 'https://images.pexels.com/photos/4033702/pexels-photo-4033702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
 		},
 		{
-			title: 'Digital Marketing',
+			title: 'Web Development',
 			url: 'https://images.pexels.com/photos/3826681/pexels-photo-3826681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+		},
+		{
+			title: 'Mobile App Development',
+			url: 'https://images.pexels.com/photos/4033702/pexels-photo-4033702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
 		}
 	];
 
