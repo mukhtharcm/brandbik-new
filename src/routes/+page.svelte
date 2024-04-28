@@ -126,10 +126,9 @@
 					start: 0.5
 				}}
 			>
-				&nbsp; &nbsp; We are a team of passionate and skilled digital creatives driven by the desire
-				to bring your vision to life. With a blend of artistic flair and technical expertise, we
-				pride ourselves on delivering bespoke solutions that not only meet but exceed your
-				expectations.
+				&nbsp; &nbsp; We're more than just a marketing agency – we're your partners in propelling
+				your brand forward. With innovative strategies and tireless dedication, we navigate the
+				digital landscape, helping your brand ride smoothly towards its goals.
 			</span>
 		{/if}
 	</div>
@@ -154,29 +153,62 @@
 			</span>
 		</div>
 		<div class="container z-10 mt-20 grid gap-8 md:grid-cols-3">
-			{#each Array(3) as item}
-				{#if isAchievementsInView}
-					<div
-						in:fly={{
-							delay: 0,
-							duration: 1000,
-							// x: 100,
-							y: 300,
-							opacity: 0.5,
-							easing: quintOut
-						}}
-						class="isolate flex flex-col justify-between rounded-xl bg-white/5 p-4 ring-1 ring-white/30 md:aspect-square"
+			{#if isAchievementsInView}
+				<div
+					in:fly={{
+						delay: 0,
+						duration: 1000,
+						// x: 100,
+						y: 300,
+						opacity: 0.5,
+						easing: quintOut
+					}}
+					class="isolate flex flex-col justify-between rounded-xl bg-white/5 p-4 ring-1 ring-white/30 md:aspect-square"
+				>
+					<h2 class="mb-16 text-lg font-normal">Projects Completed</h2>
+					<span class="text-7xl font-extralight"> 242+ </span>
+					<hr class="mb-4 mt-8 h-0.5 rounded-full border-white/20" />
+					<span class="text-xs leading-snug"
+						>Successful liftoffs into the digital cosmos, each leaving a trail of satisfied clients</span
 					>
-						<h2 class="mb-16 text-lg font-normal">Projects Completed</h2>
-						<span class="text-7xl font-extralight"> 74+ </span>
-						<hr class="mb-4 mt-8 h-0.5 rounded-full border-white/20" />
-						<span class="text-xs leading-snug"
-							>Successful liftoffs into the digital cosmos, each leaving a trail of satisfied
-							clients</span
-						>
-					</div>
-				{/if}
-			{/each}
+				</div>
+				<div
+					in:fly={{
+						delay: 0,
+						duration: 1000,
+						// x: 100,
+						y: 300,
+						opacity: 0.5,
+						easing: quintOut
+					}}
+					class="isolate flex flex-col justify-between rounded-xl bg-white/5 p-4 ring-1 ring-white/30 md:aspect-square"
+				>
+					<h2 class="mb-16 text-lg font-normal">Brands Associated</h2>
+					<span class="text-7xl font-extralight"> 126+ </span>
+					<hr class="mb-4 mt-8 h-0.5 rounded-full border-white/20" />
+					<span class="text-xs leading-snug"
+						>Successful liftoffs into the digital cosmos, each leaving a trail of satisfied clients</span
+					>
+				</div>
+				<div
+					in:fly={{
+						delay: 0,
+						duration: 1000,
+						// x: 100,
+						y: 300,
+						opacity: 0.5,
+						easing: quintOut
+					}}
+					class="isolate flex flex-col justify-between rounded-xl bg-white/5 p-4 ring-1 ring-white/30 md:aspect-square"
+				>
+					<h2 class="mb-16 text-lg font-normal">Startups we worked with</h2>
+					<span class="text-7xl font-extralight"> 59+ </span>
+					<hr class="mb-4 mt-8 h-0.5 rounded-full border-white/20" />
+					<span class="text-xs leading-snug"
+						>Successful liftoffs into the digital cosmos, each leaving a trail of satisfied clients</span
+					>
+				</div>
+			{/if}
 		</div>
 	</div>
 	<div
