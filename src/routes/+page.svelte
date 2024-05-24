@@ -10,6 +10,8 @@
 	import NewsLetterSection from './_sections/NewsLetterSection.svelte';
 	import ContactForm from './_sections/ContactForm.svelte';
 	import Footer from './_sections/Footer.svelte';
+	import PeopleList from './_components/PeopleList.svelte';
+	import PoepleSection from './_sections/PoepleSection.svelte';
 
 	let isHeaderInView: boolean = false;
 	let introTextInView: boolean = false;
@@ -223,6 +225,8 @@
 <TestimonialsSection />
 
 <NewsLetterSection />
+
+<PoepleSection />
 
 <ContactForm />
 
