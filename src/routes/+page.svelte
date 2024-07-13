@@ -24,7 +24,7 @@
 	>
 		<div class="container mt-4 flex h-full flex-col">
 			<div class="container fixed inset-x-0 top-8 z-10 flex flex-row items-center justify-between">
-				<span class="text-2xl font-semibold uppercase tracking-widesttt">Outd</span>
+				<span class="text-2xl font-semibold uppercase tracking-widesttt">Brandbik</span>
 				<div class="flex flex-row items-center space-x-2">
 					<span class="hidden text-sm font-light md:block"> Contact Us </span>
 					<Menu size={24} />

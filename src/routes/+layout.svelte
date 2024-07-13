@@ -15,5 +15,5 @@
 <CurrentBreakPoint />
 
 <svelte:head>
-	<title>Outd</title>
+	<title>Brandbik</title>
 </svelte:head>
