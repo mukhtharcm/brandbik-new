@@ -128,9 +128,10 @@
 					start: 0.5
 				}}
 			>
-				&nbsp; &nbsp; We're more than just a marketing agency – we're your partners in propelling
-				your brand forward. With innovative strategies and tireless dedication, we navigate the
-				digital landscape, helping your brand ride smoothly towards its goals.
+				&nbsp; &nbsp; We're South India's leading strategical business development firm helping in
+				building your perfect web, Mobile app and Software. We incorporate digital marketing with
+				strategical marketing to help you reach the goals at ease. We take the Oath in building the
+				perfect Brand for you
 			</span>
 		{/if}
 	</div>
