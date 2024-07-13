@@ -22,6 +22,8 @@
 			<ClientList />
 		</div> -->
 
+		<!-- TODO: implement actual infinite scrolling -->
+
 		<div class="absolute inset-y-0 left-0 w-40 bg-gradient-to-r from-black to-transparent"></div>
 		<div class="absolute inset-y-0 right-0 w-40 bg-gradient-to-l from-black to-transparent"></div>
 	</div>
