@@ -11,16 +11,16 @@
 
 	<div class="relative flex overflow-x-hidden">
 		<div
-			class="flex animate-marquee flex-row items-center space-x-20 whitespace-nowrap py-12 pl-20"
+			class="flex animate-marquee flex-row items-center space-x-20 whitespace-nowrap py-12 pl-40"
 		>
 			<ClientList />
 		</div>
 
-		<div
-			class="absolute top-0 flex animate-marquee2 flex-row items-center space-x-20 whitespace-nowrap py-12 pl-20"
+		<!-- <div
+			class="absolute top-0 flex animate-marquee2 flex-row items-center space-x-20 whitespace-nowrap py-12 pl-40"
 		>
 			<ClientList />
-		</div>
+		</div> -->
 
 		<div class="absolute inset-y-0 left-0 w-40 bg-gradient-to-r from-black to-transparent"></div>
 		<div class="absolute inset-y-0 right-0 w-40 bg-gradient-to-l from-black to-transparent"></div>
